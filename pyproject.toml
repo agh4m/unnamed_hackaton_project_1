@@ -1,0 +1,21 @@
+[project]
+name = "unnamed_hackaton_1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scipy>=1.16.2",
+    "torchvision>=0.15.0",
+    "torchaudio>=2.0.0",
+    "matplotlib>=3.5.0",
+    "Pillow>=9.0.0",
+    "numpy>=1.21.0",
+    "tqdm>=4.64.0",
+    "scikit-learn>=1.0.0",
+    "flask>=2.0.0",
+    "flask-cors>=4.0.0",
+]
+
+[tool.poetry]
+package-mode = false
